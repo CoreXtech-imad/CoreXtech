@@ -12,7 +12,7 @@ const products = {
             "50 mm Drivers",
             "Lightweight Design"
         ],
-        image: "/images/headset.png"
+        image: "headset.png"
     },
     "earpods": {
         name: "Wireless Earpods X2 with Noise Reduction",
@@ -26,7 +26,8 @@ const products = {
             "Sweat‑Resistant",
             "Compact Charger Case"
         ],
-        image: "images/headset.jpg"
+        image: "headset.jpg"
     }
     // Add more as needed...
+
 };
