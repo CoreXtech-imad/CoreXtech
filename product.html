@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details – Tech Accessoires DZ</title>
+    <link rel="stylesheet" href="product.css" />
+
+    <script defer src="products.js"></script>
+    <script defer src="product.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="/images/corex-logo.png" alt="CoreX Logo" class="logo-icon">
+                <h2> CoreX</h2>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/shop.html">Shop</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="product-landing">
+        <div class="product-image">
+            <img id="product-image" src="" alt="Product Image" />
+        </div>
+        <div class="product-details">
+            <h2 id="product-name">Product Name</h2>
+            <div class="price">
+                <span id="new-price">$0.00</span>
+                <span id="old-price" class="old-price">$0.00</span>
+            </div>
+            <p id="stock" class="stock"></p>
+            <ul id="features" class="features"></ul>
+            <form class="order-form" id="orderForm">
+                <label>Color:
+          <select name="color">
+            <option value="">Select color</option>
+            <option value="black">Black</option>
+            <option value="white">White</option>
+          </select>
+        </label>
+                <label>Quantity:
+          <input type="number" name="quantity" value="1" min="1" />
+        </label>
+                <label>Full Name:
+          <input type="text" name="fullname" placeholder="Full Name" required />
+        </label>
+                <label>Phone Number:
+          <input type="tel" name="phone" placeholder="Phone Number" required />
+        </label>
+                <label>Delivery Address:
+          <input type="text" name="address" placeholder="Delivery Address" required />
+        </label>
+                <div class="total">Total: <span id="total-price">$0.00</span></div>
+                <button type="submit" class="buy-button">Buy Now – Cash on Delivery</button>
+
+                <!-- Footer -->
+                <footer>
+                    <p>© 2025 coreX – All Rights Reserved</p>
+                </footer>
+</body>
+
+</html>
